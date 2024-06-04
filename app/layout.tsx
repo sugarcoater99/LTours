@@ -1,7 +1,7 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
 import Navbar from "../components/Navbar/Navbar";
-import { Nunito } from "next/font/google";
+//import { Nunito } from "next/font/google";
 import ClientOnly from "@/components/ClientOnly";
 import RegisterModal from "@/components/modals/RegisterModal";
 import ToasterProvider from "./providers/ToasterProvider";
@@ -17,7 +17,7 @@ export const metadata = {
   title: "LTour",
   description: "LTour",
 };
-const font = Nunito({
+const font = Inter({
   subsets: ["latin"],
 });
 
